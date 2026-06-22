@@ -6,6 +6,13 @@
       "status": "completed",
       "priority": "high",
       "notes": "Frontend (Vite+React+Tailwind) dan Backend (Express+MySQL) sudah diinisialisasi dan berjalan."
+    },
+    {
+      "id": "2",
+      "name": "Database Schema & Backend Models",
+      "status": "planned",
+      "priority": "high",
+      "notes": "ERD dan Rencana Fitur sudah dibuat. Eksekusi kode akan dilakukan di sesi berikutnya."
     }
   ]
 }
