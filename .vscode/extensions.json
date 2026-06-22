@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "ecmel.vscode-html-css",
+    "zignd.html-css-class-completion",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+    "pmneo.tsimporter",
+    "yoavbls.pretty-ts-errors",
+    "dsznajder.es7-react-js-snippets",
+    "bradlc.vscode-tailwindcss",
+    "eamodio.gitlens",
+    "christian-kohler.path-intellisense",
+    "kisstkondoros.vscode-gutter-preview",
+    "rangav.vscode-thunder-client",
+    "cweijan.vscode-mysql-client2"
+  ]
+}
