@@ -1,4 +1,17 @@
-// Konfigurasi database dikosongkan sementara sampai MySQL siap
-// Nanti kita akan isi dengan Sequelize connection
+import { Sequelize } from 'sequelize';
+import * as dotenv from 'dotenv';
 
-export {};
+dotenv.config();
+
+const sequelize = new Sequelize(
+  process.env.DB_NAME as string,
+  process.env.DB_USER as string,
+  process.env.DB_PASSWORD as string,
+  {
+    host: process.env.DB_HOST,
+    dialect: 'mysql',
+    logging: false,
+  }
+);
+
+export default sequelize;

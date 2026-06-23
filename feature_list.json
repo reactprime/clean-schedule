@@ -10,9 +10,16 @@
     {
       "id": "2",
       "name": "Database Schema & Backend Models",
+      "status": "completed",
+      "priority": "high",
+      "notes": "Skema database MySQL (db_asrama) berhasil dibuat dan disinkronisasi melalui Sequelize. Model User, Room, dan Schedule selesai diimplementasikan."
+    },
+    {
+      "id": "3",
+      "name": "Backend API (Routes & Controllers)",
       "status": "planned",
       "priority": "high",
-      "notes": "ERD dan Rencana Fitur sudah dibuat. Eksekusi kode akan dilakukan di sesi berikutnya."
+      "notes": "Pembuatan endpoint REST API untuk fitur-fitur aplikasi (User, Room, Schedule)."
     }
   ]
 }
